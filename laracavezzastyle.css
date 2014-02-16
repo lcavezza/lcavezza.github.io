@@ -1,0 +1,232 @@
+
+ @font-face { font-family: LANENAR_; src: url('LANENAR_.ttf'); } 
+ @font-face { font-family: LANENAR_; font-weight: bold; src: url('LANENAR_.ttf');}
+
+
+body {
+	font-family: 'LANENAR_', sans-serif;
+}
+
+div.container.clearfix {
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top-content {
+	position: fixed;
+	z-index: 60;
+}
+
+div.navbar {
+	margin: 0 10px 0 0;
+	background-color: white;
+	padding-bottom: 20px;
+	text-align: left;
+	border-bottom: 2px solid #FFE373;
+}
+
+ul.nav {
+	list-style: none;
+	font-size: 20px;
+	color: #190773;
+	background-color: white;
+	text-align: center;
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 205px;
+	text-align: center;
+}
+
+ul li:last-child {
+	margin-right: 0;
+}
+
+ul.nav li a {
+	color: #000000;
+}
+
+ul.nav li a:hover {
+	color: #FF7400;
+}
+
+#logo {
+	margin-left: 25px;
+}
+
+.lefttop {
+	background-color: white;
+	margin: 0 0 0 0;
+}
+
+.topright {
+	border-bottom: 2.5px dotted grey;
+	background-color: white;
+	margin-bottom: 0;
+	margin-right: 0;
+	display: block;
+	/*position: fixed;*/
+	border-top: 5px solid #FFE373;
+	text-align: center;
+}
+
+.flowers {
+	position: relative;
+	width: 100%;
+	clear: both;
+	z-index: 50;
+	padding-top: 180px;
+}
+
+h2.welcome {
+	position: absolute;
+	top: 175px;
+	left: 0;
+	width: 100%;
+	padding-top: 200px;
+}
+
+h2 span {
+	color: white;
+	font: bold 48px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	line-height: 65px;
+}
+
+h2 span.spacer {
+	padding: 0 5px;
+}
+
+.main-footer {
+	background-color: #FFE373;
+}
+
+
+ul.footernav {
+	margin: auto;
+	list-style: none;
+	font-size: 15px;
+	color: #000;
+	float: left;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+
+ul.footernav li {
+	float: left;
+	margin-right: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #000;
+	color: #000;
+	text-decoration: none;
+
+}
+
+ul.footernav li a {
+	color: #000000;
+}
+
+ul.footernav li a:hover {
+	color: #FF7400;
+}
+
+ul li.lastfooter {
+	border-right: none;
+}
+
+div.copyright {
+	float: left;
+	padding: 15 0 15 40;
+	font-size: 13px;
+}
+
+
+div.connect {
+	margin: auto;
+	list-style: none;
+	font-size: 15px;
+	color: #000;
+	float: left;
+	padding-top: 40px;
+	text-decoration: none;
+}
+
+div.social_media {
+	float: left;
+	margin: 0 0 0 0;
+}
+
+.twitter-follow-button {
+	padding-top: 30px;
+}
+
+.main-stuff {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.box {
+	margin: 0 0 0 0;
+	padding: 0 140px 0 0;
+}
+
+.lastbox {
+	padding-right: 0;
+}
+
+h2.main-info {
+	font-size: 2em;
+	color: #262526;
+	font-family: Garamond;
+}
+
+h2.main-info first {
+	padding: 0 0 0 0;
+}
+
+.main-content {
+	padding-top: 20px;
+}
+
+
+p.main-info {
+	text-align: left;
+}
+
+#backtotop {
+	cursor : pointer;
+	display : none;
+	margin : 0px 0px 0px 1140px;
+	position : fixed;
+	bottom : 10px;
+	font-size : 90%;
+	padding	: 10px;
+	width : 75px;
+	text-align : center;
+	background-color : #000;
+	border-radius : 8px;
+	-webkit-border-radius : 8px;
+	-moz-border-radius : 8px;
+	filter : alpha(opacity=60);
+	-khtml-opacity : 0.6;
+	-moz-opacity : 0.6;
+	opacity	: 0.6;
+	color : #FFF;
+	font-size : 14px;
+	z-index	: 1000;
+	font-family: Helvetica;
+}
+#backtotop:hover
+{
+	filter : alpha(opacity=90);
+	-khtml-opacity : 0.9;
+	-moz-opacity : 0.9;
+	opacity	: 0.9;
+}
