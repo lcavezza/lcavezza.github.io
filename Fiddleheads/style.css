@@ -54,7 +54,7 @@ ul#main-nav li a {
 }
 
 ul#main-nav li a:active { 
-	color: green;
+	color: rgb(0,44,33);
 }
 
 ul#main-nav li a:hover { 
