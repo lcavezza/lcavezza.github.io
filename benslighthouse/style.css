@@ -171,28 +171,54 @@ p {
 	display: block;
 	height: 45px;
 	width: 170px;
-	background: black;
 	border: 2px solid rgba(33, 68, 72, 0.59);
 	margin-left: 80px;
 	margin-top: 50px;	
+
+	/*gradient background*/
+	background: -moz-linear-gradient(top, #8DD297 0%, #398525 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8DD297), color-stop(100%,#398525)); /* webkit */
+
+	/*Rounded corners*/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+ 
+	/*inner glow effect*/
+	box-shadow: inset 0px 0px 6px #fff;
+	-webkit-box-shadow: inset 0px 0px 6px #fff;
+	border: 1px solid #5ea617;
+	border-radius: 10px;
+
+	-moz-transition: color 0.25s ease-in-out;
+	-webkit-transition: color 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out;	
+
+
 }
 
 a.button {
-	color: white;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
 	padding: 10px;
-	background-color: #00A876;
+
+
+	font-family: 'Open Sans', Sans-Serif;
 	text-align: center;
-	-moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px; /* future proofing */
--khtml-border-radius: 10px; /* for old Konqueror browsers */
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #147032;
+	text-shadow: 0px 1px 2px #b4d1ad;
+
+
 }
 
 a.button:hover {
-	background-color: #207E62;
-	color: white;
+		color: #145675;
+		-moz-transition: color 0.25s ease-in-out;
+		-webkit-transition: color 0.25s ease-in-out;
+		transition: color 0.25s ease-in-out;
+
 }
 
 footer a {
