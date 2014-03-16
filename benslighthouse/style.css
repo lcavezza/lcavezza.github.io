@@ -4,8 +4,23 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
+
+/*
+
+div.container {
+	background: url(images/lighthouse.jpg) no-repeat center center;
+	height: 660px;
+		-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+*/
 
 /*Layout*/
 
@@ -119,6 +134,8 @@ ul li a {
 
 /*Formatting*/
 
+/*HEADERS*/
+
 h1 {
 	font-family: 'The Girl Next Door', cursive;
 	color: white;
@@ -148,6 +165,9 @@ h2.tagline {
 	margin: -75px 0 0 210px;
 }
 
+
+/*LINKS*/
+
 a {
 	text-decoration: none;
 	font-family: 'Bubbler One', sans-serif;
@@ -158,6 +178,8 @@ a:hover {
 	color: #FFAB73;
 }
 
+/*PARAGRAPHS*/
+
 p {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
@@ -166,6 +188,9 @@ p {
 	font-weight: 300;
 	text-align: center;
 }
+
+
+/*DONATE BUTTON*/
 
 .button {
 	display: block;
@@ -194,23 +219,17 @@ p {
 	-moz-transition: color 0.25s ease-in-out;
 	-webkit-transition: color 0.25s ease-in-out;
 	transition: color 0.25s ease-in-out;	
-
-
 }
 
 a.button {
 	font-size: 2em;
 	padding: 10px;
-
-
 	font-family: 'Open Sans', Sans-Serif;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #147032;
 	text-shadow: 0px 1px 2px #b4d1ad;
-
-
 }
 
 a.button:hover {
@@ -218,8 +237,16 @@ a.button:hover {
 		-moz-transition: color 0.25s ease-in-out;
 		-webkit-transition: color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out;
-
 }
+
+a.button:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    border: solid 1px #203E5F;
+}
+
+/*FOOTER*/
 
 footer a {
 	font-family: 'Bubbler One', sans-serif;
