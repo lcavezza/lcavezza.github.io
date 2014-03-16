@@ -1,0 +1,171 @@
+html {
+	background: url(images/lighthouse.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*Layout*/
+
+header {
+	margin-bottom: 500px;
+}
+
+nav {
+	margin: 0;
+	list-style-type: none;
+}
+
+
+div.logo {
+	margin: 110px 0 0 80px;
+}
+
+div.whatwedo {
+	background: black;
+	padding: 30px;
+	height: 600px;
+}
+
+section.events {
+	float: left;
+	width: 25%;
+	padding: 0 25px 25px 25px;
+	vertical-align: center;
+	margin-left: 45px;
+}
+
+section.events:first-child {
+	margin-left: 0px;
+}
+
+
+div.press {
+	background-color: white;
+	height: 600px;
+}
+
+div.medialogos {
+	text-align: center;
+}
+
+div.medialogos a {
+	padding: 30px;
+}
+
+footer {
+	background-color: black;
+	margin-top: -30px;
+	height: 200px;
+}
+
+/*navigation*/
+ul {
+	float: right;
+	list-style-type: none;
+	overflow: hidden;
+	display: inline-block;
+}
+
+li {
+	float: left;
+	padding: 20px;
+}
+
+ul li a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+/*end navigation*/
+
+
+/*Formatting*/
+
+h1 {
+	font-family: 'The Girl Next Door', cursive;
+	color: white;
+	font-size: 3em;
+}
+
+h1.events {
+	font-size: 1.4em;
+	color: #FFAB73;
+	text-align: center;
+}
+
+h1.press {
+	color: black;
+	text-align: center;
+	padding: 100px;
+	margin-top: -20px;
+}
+
+h2 {
+	font-family: 'Bubbler One', sans-serif;
+	color: white;
+	font-size: 1em;
+}
+
+h2.tagline {
+	margin: -75px 0 0 210px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Bubbler One', sans-serif;
+	color: white;
+}
+
+a:hover {
+	color: #FFAB73;
+}
+
+p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .9em;
+	line-height: 2em;
+	font-weight: 300;
+	text-align: center;
+}
+
+h3.donate {
+	color: white;
+	padding: 10px;
+	background-color: black;
+	width: 100px;
+	text-align: center;
+	margin-left: 110px;
+	margin-top: 50px;
+	-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+footer a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: .5em;
+	padding: 70px;
+}
+
+
+
+font-family: 'Give You Glory', cursive;
+font-family: 'Neucha', cursive;
+font-family: 'The Girl Next Door', cursive;
+font-family: 'Gochi Hand', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Coming Soon', cursive;
