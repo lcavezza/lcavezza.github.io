@@ -23,6 +23,8 @@ div.logo {
 	margin: 110px 0 0 80px;
 }
 
+/*Events and Activities*/
+
 div.whatwedo {
 	background: black;
 	padding: 30px;
@@ -41,6 +43,7 @@ section.events:first-child {
 	margin-left: 0px;
 }
 
+/*Press and Media*/
 
 div.press {
 	background-color: white;
@@ -55,23 +58,37 @@ div.medialogos a {
 	padding: 30px;
 }
 
+/*Footer*/
+
 footer {
 	background-color: black;
-	height: 200px;
+	height: 250px;
 }
 
 div.links {
+	width: 35%;
 	padding: 40px;
 	float: left;
 }
 
 div.contact {
-	width: 50%;
+	width: 20%;
 	padding: 40px;
-	float: right;
+	float: left;
 }
 
-/*navigation*/
+div.connect {
+	width: 20%;
+	padding: 40px;
+	float: left;
+}
+
+div.connect img {
+	padding-top: 13px;
+}
+
+/*Navigation*/
+
 ul {
 	float: right;
 	list-style-type: none;
@@ -97,7 +114,7 @@ ul li a {
    clear: both;
 }
 
-/*end navigation*/
+/*end layout*/
 
 
 /*Formatting*/
@@ -165,9 +182,10 @@ border-radius: 10px; /* future proofing */
 }
 
 footer a {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: .5em;
+	font-family: 'Bubbler One', sans-serif;
+	color: white;
+	font-size: 1em;
+	line-height: 1.5em;
 }
 
 footer p {
@@ -175,6 +193,7 @@ footer p {
 	font-weight: 300;
 	font-size: .5em;
 	text-align: left;
+	line-height: 1.7em;
 }
 
 
