@@ -167,18 +167,32 @@ p {
 	text-align: center;
 }
 
-h3.donate {
+.button {
+	display: block;
+	height: 45px;
+	width: 170px;
+	background: black;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	margin-left: 80px;
+	margin-top: 50px;	
+}
+
+a.button {
 	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
 	padding: 10px;
-	background-color: black;
-	width: 100px;
+	background-color: #00A876;
 	text-align: center;
-	margin-left: 110px;
-	margin-top: 50px;
 	-moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px; /* future proofing */
 -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+a.button:hover {
+	background-color: #207E62;
+	color: white;
 }
 
 footer a {
