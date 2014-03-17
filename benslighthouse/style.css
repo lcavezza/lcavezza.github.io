@@ -311,6 +311,23 @@ footer p {
 		padding-top: 70px;
 	}
 
+	ul {
+		font-size: 0.8em;
+		float: none;
+		padding-left: 0;
+		background-color: rgba(0,0,0,0.3);
+	}
+
+	ul li {
+		float: none;
+		padding: 0;
+	}
+
+	div.logo {
+		margin: 0;
+		text-align: center;
+	}
+
 }
 
 
