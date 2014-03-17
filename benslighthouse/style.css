@@ -280,6 +280,15 @@ footer p {
 
 
 
+@media screen and (max-width: 700px) {
+	section.events {
+		float: none;
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+
 font-family: 'Give You Glory', cursive;
 font-family: 'Neucha', cursive;
 font-family: 'The Girl Next Door', cursive;
