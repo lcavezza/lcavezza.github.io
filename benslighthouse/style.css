@@ -1,13 +1,4 @@
-body {
-	background: url(images/lighthouse.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-   background-size: cover;
-}
 
-
-/*
 div.container {
 	background: url(images/lighthouse.jpg) no-repeat center center;
 	height: 660px;
@@ -16,7 +7,6 @@ div.container {
   -o-background-size: cover;
   background-size: cover;
 }
-*/
 
 
 
