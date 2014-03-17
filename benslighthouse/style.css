@@ -289,17 +289,26 @@ footer p {
 		padding-top: 50px;
 	}
 
-	.button {
+	a.button {
 	margin-left: 0px;
+	margin: 150px auto 0 auto;
 	}
 
 	h2.tagline {
 	margin-left: 0;
-	margin-top: 0;
+	margin-top: -20px;
 	}
 
 	h1 {
 		font-size: 2em;
+	}
+
+	div.whatwedo {
+		padding-bottom: 50px;
+	}
+
+	div.press {
+		padding-bottom: 50px;
 	}
 
 	h1.press {
