@@ -69,6 +69,7 @@ section.events img {
 div.press {
 	background-color: white;
 	height: 100%;
+	width: 100%;
 	padding-bottom: 200px;
 }
 
@@ -280,7 +281,9 @@ footer p {
 
 
 
-@media screen and (max-width: 300px) {
+/*Media Queries*/
+
+@media screen and (max-width: 700px) {
 	section.events {
 		float: none;
 		max-width: 100%;
@@ -293,10 +296,11 @@ footer p {
 }
 
 
-
+/*Other fonts for H1
 font-family: 'Give You Glory', cursive;
 font-family: 'Neucha', cursive;
 font-family: 'The Girl Next Door', cursive;
 font-family: 'Gochi Hand', cursive;
 font-family: 'Reenie Beanie', cursive;
 font-family: 'Coming Soon', cursive;
+*/
