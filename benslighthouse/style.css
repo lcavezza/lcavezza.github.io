@@ -280,13 +280,18 @@ footer p {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 300px) {
 	section.events {
 		float: none;
 		max-width: 100%;
 		padding: 0;
 	}
+	div.medialogos a {
+		padding-top: 50px;
+	}
+
 }
+
 
 
 font-family: 'Give You Glory', cursive;
