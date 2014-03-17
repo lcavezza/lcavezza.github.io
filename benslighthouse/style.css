@@ -1,15 +1,13 @@
-html {
+body {
 	background: url(images/lighthouse.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-
+   background-size: cover;
 }
 
 
 /*
-
 div.container {
 	background: url(images/lighthouse.jpg) no-repeat center center;
 	height: 660px;
@@ -18,9 +16,9 @@ div.container {
   -o-background-size: cover;
   background-size: cover;
 }
-
-
 */
+
+
 
 /*Layout*/
 
@@ -43,26 +41,35 @@ div.logo {
 div.whatwedo {
 	background: black;
 	padding: 30px;
-	height: 600px;
+	height: 100%;
 }
 
 section.events {
 	float: left;
-	width: 25%;
-	padding: 0 25px 25px 25px;
-	vertical-align: center;
-	margin-left: 45px;
+	max-width: 27%;
+	padding: 0 0 10% 9.5%;
 }
 
 section.events:first-child {
-	margin-left: 0px;
+	padding-left: 0;
+}
+
+section.events img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.eventdescription {
+	text-align: center;
 }
 
 /*Press and Media*/
 
 div.press {
 	background-color: white;
-	height: 600px;
+	height: 100%;
+	padding-bottom: 200px;
 }
 
 div.medialogos {
@@ -75,9 +82,12 @@ div.medialogos a {
 
 /*Footer*/
 
-footer {
+footer.footer {
 	background-color: black;
-	height: 250px;
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	z-index: -1;
 }
 
 div.links {
@@ -129,6 +139,7 @@ ul li a {
    clear: both;
 }
 
+
 /*end layout*/
 
 
@@ -142,7 +153,7 @@ h1 {
 	font-size: 3em;
 }
 
-h1.events {
+.eventdescription h1 {
 	font-size: 1.4em;
 	color: #FFAB73;
 	text-align: center;
@@ -187,6 +198,10 @@ p {
 	line-height: 2em;
 	font-weight: 300;
 	text-align: center;
+}
+
+.events p {
+	min-width: 30ex;
 }
 
 
