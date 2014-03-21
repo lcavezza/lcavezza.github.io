@@ -321,10 +321,11 @@ footer p {
 	}
 
 	ul {
+		font-size: 0.8em;
 	}
 
 	ul li {
-		padding: 10px;
+		padding: 10px 10px 0 0;
 	}
 
 	div.logo {
