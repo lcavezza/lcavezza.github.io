@@ -325,14 +325,15 @@ footer p {
 		text-align: center;
 	}
 
-	ul {
+	nav ul {
 		font-size: 0.8em;
 		float: none;
-
+		padding-left: 0;
 	}
 
 	ul li {
-		padding: 10px 10px 10px 0;
+		padding: 10px 15px 10px 0;
+		font-weight: bold;
 	}
 
 	div.logo {
