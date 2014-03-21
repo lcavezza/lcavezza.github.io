@@ -320,12 +320,19 @@ footer p {
 		padding-top: 70px;
 	}
 
+	nav {
+		background-color: black;
+		text-align: center;
+	}
+
 	ul {
 		font-size: 0.8em;
+		float: none;
+
 	}
 
 	ul li {
-		padding: 10px 10px 0 0;
+		padding: 10px 10px 10px 0;
 	}
 
 	div.logo {
