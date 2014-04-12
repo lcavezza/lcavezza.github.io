@@ -13,6 +13,11 @@
 		<link href='http://fonts.googleapis.com/css?family=Give+You+Glory|Neucha|The+Girl+Next+Door|Gochi+Hand|Reenie+Beanie|Coming+Soon' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Bubbler+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<script src="jquery.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--	<script src="js/jquery.sticky.js"></script>
+		<script src="js/unslider.min.js"></script>-->
+
 
   	</head>
 
@@ -31,7 +36,7 @@
 		  		<div class="logo">
 		  			<h1>Ben's Lighthouse</h1>
 		  			<h2 class="tagline">For Newtown's Children</h2>
-		  			<a href="#" class="button">Donate</a>
+		  			<a href="#" id="sticker" class="button">Donate</a>
 				</div>
 		  	</header>
 		</div>
@@ -39,7 +44,7 @@
 
 	  	<div class="whatwedo clearfix">
 	  		<section class="events">
-				<img src="images/calendar.png">
+				<img src="images/calendar.png" alt="">
 				<section class="eventdescription">
 		  			<h1>Community Events</h1>
 		  			<p>We celebrate life together and remind youth of the overwhelming amount of community, love, and support.</p>
@@ -96,6 +101,18 @@
 				<a href="https://twitter.com/benslighthouse"><img src="images/twitter_32.png"></a>
 			</div>
 		</footer>
+<!--sticky button-->
+	<script>
+  $(document).ready(function(){
+    $("#sticker").sticky({topSpacing:0});
+  });
+	</script>
+<!--slider
+<script>
+$(function() {
+    $('.banner').unslider();
+});
+</script>-->
 
   	</body>
 </html>

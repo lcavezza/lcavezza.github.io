@@ -2,8 +2,15 @@ body {
 	font-family: 'Carrois Gothic SC', sans-serif;
 }
 
-div.container {
-	width: 70%;
+/*NAVIGATION*/
+
+.nav ul {
+	margin: auto 0;
+}
+
+ul li {
+	float: left;
+	padding: 0 50px 0 0;
 }
 
 a {
@@ -11,18 +18,9 @@ a {
 	color: #000000;
 }
 
-div.nav {
-	position: fixed;
-}
-
 a:visited {
 	color:#000000;
 	}
-
-div.nav a:hover {
-	color:#000000;
-	text-decoration: underline;
-}
 
 a:active {
 	color:#000000;
@@ -54,7 +52,7 @@ a:active {
 	text-align: center;
 }
 
-div.intro {
+section.intro {
 	padding-top: 100px;
 	margin-bottom: 400px;
 }
@@ -271,7 +269,7 @@ label {
 	font-size: 1.4em;
 }
 
-div.pink {
+section.portfolio {
 	width: 100%;
 	background-color: #FF4E50;
 	height: 600px;

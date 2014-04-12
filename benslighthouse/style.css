@@ -356,3 +356,7 @@ font-family: 'Gochi Hand', cursive;
 font-family: 'Reenie Beanie', cursive;
 font-family: 'Coming Soon', cursive;
 */
+
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }
