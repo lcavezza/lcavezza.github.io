@@ -1,4 +1,16 @@
 @font-face {
+	font-family: 'arrows';
+	src:url('../fonts/arrows/arrows.eot');
+	src:url('../fonts/arrows/arrows.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/arrows/arrows.woff') format('woff'),
+		url('../fonts/arrows/arrows.ttf') format('truetype'),
+		url('../fonts/arrows/arrows.svg#arrows') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
 	font-family: 'playtime-webfont';
 	src:url('../fonts/playtime-webfont.eot');
 	src:url('../fonts/playtime-webfont.eot?#iefix') format('embedded-opentype'),
@@ -7,6 +19,20 @@
 		url('../fonts/playtime-webfont.svg#arrows') format('svg');
 	font-weight: normal;
 	font-style: normal;
+}
+
+.top-nav {
+	text-align: right;
+	background-color: #f30021;
+	padding: 10px;
+}
+
+.top-nav a {
+	padding: 15px;
+}
+
+a.underline {
+	text-decoration: underline;
 }
 
 .bb-custom-wrapper {
@@ -56,9 +82,10 @@
 
 .bb-custom-firstpage h1 span {
 	display: block;
-	font-size: 60%;
-	opacity: 0.3;
+	font-size: 150%;
 	padding: 0 0 0.6em 0.1em;
+	outline: #000;
+	color: #000;
 }
 
 .bb-custom-firstpage {
@@ -67,6 +94,7 @@
 	width: 50%;
 	float: left;
 	height: 100%;
+	background: white;
 }
 
 .bb-custom-side p {
@@ -74,7 +102,7 @@
 	font-size: 1.8em;
 	font-weight: 300;
 	border: 3px solid black;
-	width: 27ex;
+	width: 32ex;
 	text-align: center;
 }
 
@@ -100,7 +128,7 @@
 	height: 40px;
 	text-align: center;
 	border-radius: 2px;
-	background: #1baede;
+	background: #000;
 	color: #fff;
 	font-size: 0;
 	margin: 2px;
@@ -111,7 +139,7 @@
 }
 
 .bb-custom-icon:before {
-	font-family: 'playtime-webfont';
+	font-family: 'arrows';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -140,6 +168,11 @@
 	-moz-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
+}
+
+img {
+	height: 10px;
+	width: 10px;
 }
 
 /* No JS */
