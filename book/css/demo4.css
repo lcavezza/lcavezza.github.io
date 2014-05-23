@@ -112,7 +112,7 @@ a.underline {
 
 .bb-custom-firstpage {
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 18%;
 	width: 50%;
 	float: left;
 	height: 100%;
@@ -213,6 +213,10 @@ img {
 @media screen and (max-width: 61.75em){
 	.bb-custom-side {
 		font-size: 70%;
+	}
+
+	.bb-custom-firstpage h1 {
+		font-size: 90%;
 	}
 }
 

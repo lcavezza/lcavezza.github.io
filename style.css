@@ -1,5 +1,5 @@
 body {
-	font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Cabin', sans-serif;
 }
 
 /*NAVIGATION*/
@@ -160,7 +160,7 @@ div.social_media {
 h2.main-info {
 	font-size: 3em;
 	color: #262526;
-	font-family: Garamond;
+	font-family: 'Cabin', sans-serif;
 	text-align: center;
 }
 

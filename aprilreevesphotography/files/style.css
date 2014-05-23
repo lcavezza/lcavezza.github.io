@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+@import url(http://fonts.googleapis.com/css?family=Muli:300,400,400italic);
+
+body {
+	max-width: 75%;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+
+h1, h2, p {
+	font-family: 'Muli', sans-serif;
+}
+
+a {
+	color: black;
+}
+
+.demo_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	height: 20px;
+}
+
+.sy-box {
+	height: 30em;
+}
+
+.header {
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.logo {
+	float:left;
+	max-width: 30%;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+/*nav*/
+nav {
+	float: right;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-top: 50px;
+	float: left;
+	font-family: 'Muli', sans-serif;
+	padding-right: 70px;
+}
+
+nav ul li:last-child {
+	padding-right: 0;
+}
+
+nav ul li a {
+	padding: 0;
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li:last-child {
+	padding-right: 0;
+}
+
+nav ul li a:active {
+	color: #f3849d;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.current-link {
+	color: #f3849d;
+}
+
+
+nav ul li a span:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	height: 30px;
+	bottom: 0;
+}
+
+
+
+/*contact page*/
+
+#contact-image {
+	width: 50%;
+	float: left;
+	padding-right: 20px;
+}
+
+#icons {
+	width: 15px;
+	height: 15px;
+	vertical-align: text-bottom;
+	padding-right: 5px;
+}
+
+
+@media only screen and (max-device-width: 800px), screen and (max-width: 800px) {
+ body {
+ 	max-width: 100%;
+ }
+
+nav ul li {
+	padding-right: 10px;
+}
+
+nav ul li:last-child {
+	padding-right: 10px;
+}
+
+  .demo_wrapper {
+    width: 80%;
+  }  
+}
+.demo_block {
+	width: 100%;
+}
+
+img {
+
+}
