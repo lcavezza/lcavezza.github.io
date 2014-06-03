@@ -496,6 +496,11 @@ section.bl-expand .bl-icon-close {
 	}
 
 	.name {
-		top: 175px;
+		top: 185px;
+	}
+
+	.bl-box {
+		width: 150px;
+		height: 40%;
 	}
 }
