@@ -490,4 +490,12 @@ section.bl-expand .bl-icon-close {
 	.bl-content > ul li {
 		width: 40%;
 	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	.name {
+		top: 175px;
+	}
 }
