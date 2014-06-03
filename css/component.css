@@ -13,6 +13,14 @@
 	font-style: normal;
 }
 
+body {
+	background: url('../images/photo.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body, html { font-size: 100%; padding: 0; margin: 0; height: 100%; }
 
 *,
@@ -24,9 +32,8 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%; }
 }
 
 body {
-    font-family: Muli, 'Open Sans', Calibri, Arial, sans-serif;
+    font-family: 'Muli', 'Open Sans', Calibri, Arial, sans-serif;
     color: #f2ede3;
-    background: #fff;
     font-size: 0.9em;
     font-weight: 300;
 }
@@ -45,7 +52,7 @@ body {
 a {
 	color: #f0f0f0;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 300;
 	letter-spacing: 2px;
 	padding: 0 5px;
 	text-transform: uppercase;
@@ -58,7 +65,7 @@ a {
 }
 
 .bl-box:hover {
-	background-color: #EE4444;
+	background-color: rgba(255,255,255,0.8);
 }
 
 .container { height: 100%; }
@@ -106,6 +113,7 @@ h1 {
 }
 
 .bl-box {
+	background-color: rgba(255,255,255,0.5);
 	position: relative;
 	height: 65%;
 	cursor: pointer;
@@ -312,7 +320,7 @@ div.bl-panel-items {
 }
 
 div.bl-panel-items > div {
-	background: #3ba5db;
+	background: #333;
 	z-index: 0;
 	opacity: 0;
 	-webkit-transform: translateY(0);
@@ -406,16 +414,16 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-	background: #EE4444;
+	background: rgba(0,0,0,0.8);
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
+	background: rgba(0,0,0,0.8);
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
+	background: rgba(0,0,0,0.8);
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #0D8278;
+	background: rgba(0,0,0,0.8);
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
