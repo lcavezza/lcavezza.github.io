@@ -1,201 +1,113 @@
-<!DOCTYPE: html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Designs Lovely</title>
-  <link rel="stylesheet" href="normalize1.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="grid1.css" type="text/css" media="screen">
-<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic|Cabin+Condensed:400,500,600,700|Cuprum:400,400italic,700|Archivo+Narrow:400,400italic,700|Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="style.css" type="text/css" media="screen">
-
-  <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-$(function() {
-	$(window).scroll(function() {
-		if($(this).scrollTop() != 0) {
-			$('#backtotop').fadeIn();	
-		} else {
-			$('#backtotop').fadeOut();
-		}
-	});
- 
-	$('#backtotop').click(function() {
-		$('body,html').animate({scrollTop:0},800);
-	});	
-});
-</script>
-	
-
-<style>
-
-		#image { 
-			background-image: url(images/furley_bg_@2X.png); 
-		}
-		@media only screen and (max-width: 320px) {
-			#image { 
-				background-image: url(images/furley_bg.png); 
-			}
-		}
-</style>
-
-
-</head>
-
-<body>
-		<header>
-			<section class="intro">
-				<h2 class="main-info">Front-End Developer</h2>
-				<p class="subtext">(career changer and lover of coding)</p>
-			</section>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="#intro">about</a><br></li>
-				<li><a href="http://www.designslovely.com/blog">blog</a><br></li>
-				<li><a href="#portfolio">portfolio</a><br></li>
-				<li><a href="#contact">contact</a></li>
-			</ul>
-		</nav>
-		<section class="portfolio">
-			<a name="portfolio"><div class="main-stuff">
-				<div class="main-content">
-					<div class="box">
-						<h2 class="main-info">some of my work</h2>
-						<p class="subtext">(come back to see it grow)</p>
-
-			<section class="main">
-			
-				<div class="ia-container">
-				
-					<figure>
-						<img src="images/accordian0.gif" alt="image01" />
-						<input type="radio" name="radio-set" checked="checked"/>
-						<figcaption><span>Logo Idea One</span></figcaption>
-						
-						<figure>
-							<img src="images/accordian1.gif" alt="image02" />
-							<input type="radio" name="radio-set" />
-							<figcaption><span>Logo Idea Two</span></figcaption>
-							
-							<figure>
-								<img src="images/accordian2.gif" alt="image03" />
-								<input type="radio" name="radio-set" />
-								<figcaption><span>Logo Idea Three</span></figcaption>
-								
-								<figure>
-									<img src="images/accordian4.gif" alt="image04" />
-									<input type="radio" name="radio-set" />
-									<figcaption><span>Logo Idea Four</span></figcaption>
-									
-									<figure>
-										<img src="images/accordian3.gif" alt="image05" />
-										<input type="radio" name="radio-set" />
-										<figcaption><span>Logo Idea Five</span></figcaption>
-										
-										<figure>
-											<img src="images/accordian5.gif" alt="image06" />
-											<input type="radio" name="radio-set" />
-											<figcaption><span>Fun with Photoshop</span></figcaption>
-								
-											<figure>
-												<img src="images/accordian6.gif" alt="image07" />
-												<input type="radio" name="radio-set" />
-												<figcaption><span>Gluten Free of the Month Club Logo</span></figcaption>											
-
-												<figure>
-													<img src="images/accordian7.gif" alt="image08" />
-													<input id="ia-selector-last" type="radio" name="radio-set" />
-													<figcaption><span>Logo for a Friend</span></figcaption>
-												</figure>
-												
-											</figure>
-								
-										</figure>	
-											
-									</figure>	
-										
-								</figure>
-									
-							</figure>
-							
-						</figure>
-						
-					</figure>
-					
-				</div><!-- ia-container -->
-				
-			</section>
-
-
-
-		<div id="page-wrap">
-			<a name="contact"><div class="contact-me">
-				<h2 class="contact-me">contact me</h2>
-				<p class="subtext">(i'd love to hear from you)</p>
-			</div>
-			<div id="contact-area">
-				
-				<form method="post" action="contactengine.php">
-					<label for="Name">Name:</label>
-					<input type="text" name="Name" id="Name" />
-					
-					<label for="City">City:</label>
-					<input type="text" name="City" id="City" />
-		
-					<label for="Email">Email:</label>
-					<input type="text" name="Email" id="Email" />
-					
-					<label for="Message">Message:</label><br />
-					<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
-
-					<input type="submit" name="submit" value="submit" class="submit-button" />
-				</form>
-				
-				<div style="clear: both;"></div>
-							
-			</div>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Lara Cavezza</title>
+		<meta name="description" content="Fullscreen Layout with Page Transitions" />
+		<meta name="keywords" content="fullscreen layout, boxes, responsive, page transitions, css transitions, jquery, portfolio, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="name">
+			<h1>Lara Cavezza</h1>
 		</div>
-
-		<div class="footer">
-			<div class="social_media">
-				<div class="twitter">
-					<a href="https://twitter.com/designslovely" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @designslovely</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		<div class="container">	
+			<div id="bl-main" class="bl-main">
+				<section>
+					<div class="bl-box">
+						<h3><div class="fa fa-lg fa-user"></div>ABOUT</h3>
+					</div>
+					<div class="bl-content">
+						<h2>About me</h2>
+						<p>I am a product manager, front-end designer, and developer. I studied linguistics and psychology, and I'm a lover of all things relating to language, telling stories, and understanding why people behave in different ways.</p>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section id="bl-work-section">
+					<div class="bl-box">
+						<h3><div class="fa fa-lg fa-briefcase"></div>PORTFOLIO</h3>
+					</div>
+					<div class="bl-content">
+						<h2>My Portfolio</h2>
+						<p>Click on an image to see more information.</p>
+						<ul id="bl-work-items">
+							<li data-panel="panel-1"><a href="#"><img src="images/beacon_thumbnail.png" /></a></li>
+							<li data-panel="panel-2"><a href="#"><img src="images/april_thumbnail.png" /></a></li>
+<!--							<li data-panel="panel-3"><a href="#"><img src="images/3.jpg" /></a></li>
+							<li data-panel="panel-4"><a href="#"><img src="images/4.jpg" /></a></li>-->
+						</ul>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h3><div class="fa fa-lg fa-list"></div>SKILLS</h3>
+					</div>
+					<div class="bl-content">
+						<h2>Skills</h2>
+						<p>Product Managment - HTML - CSS - Linguistics - Psychology - Research - UX Design</p>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<section>
+					<div class="bl-box">
+						<h3><div class="fa fa-lg fa-envelope"></div>CONTACT</h3>
+					</div>
+					<div class="bl-content">
+						<h2>Get in touch</h2>
+						<span class="fa fa-3x fa-twitter contact"></span><p>@designslovely</p><br>
+						<span class="fa fa-3x fa-envelope-square contact"></span><p>laracavezza@gmail.com</p>
+					</div>
+					<span class="bl-icon bl-icon-close"></span>
+				</section>
+				<!-- Panel items for the works -->
+				<div class="bl-panel-items" id="bl-panel-work-items">
+					<div data-panel="panel-1">
+						<div>
+							<img src="images/beacon.png" />
+							<h3>Beacon Heroes</h3>
+							<p>Beacon Heroes is a product I co-founded and created to help match kids who have experienced trauma to good causes. I strategized the product and we applied to MassChallenge with the concept.</p>
+						</div>
+					</div>
+					<div data-panel="panel-2">
+						<div>
+							<img src="images/april.png" />
+							<h3>April Reeves Photography</h3>
+							<p>This is a website I designed and coded using WordPress. It was created for a fantastic photographer (and incredible animal rescuer).</p>
+						</div>
+					</div>
+<!--					<div data-panel="panel-3">
+						<div>
+							<img src="images/3.jpg" />
+							<h3>Austin hella</h3>
+							<p>Ethical cray wayfarers leggings vice, seitan banksy small batch ethnic master cleanse. Pug chillwave etsy, scenester meh occupy blue bottle tousled blog tonx pinterest selvage mixtape swag cosby sweater. Synth tousled direct trade, hella Austin craft beer ugh chambray.</p>
+						</div>
+					</div>
+					<div data-panel="panel-4">
+						<div>
+							<img src="images/4.jpg" />
+							<h3>Brooklyn dreamcatcher</h3>
+							<p>Fashion axe 90's pug fap. Blog wayfarers brooklyn dreamcatcher, bicycle rights retro YOLO. Wes anderson lomo 90's food truck 3 wolf moon, twee jean shorts. Iphone small batch twee wolf yr before they sold out. Brooklyn echo park cred, portland pug selvage flannel seitan tousled mcsweeney's.</p>
+						</div>
+					</div>-->
+					<nav>
+						<span class="bl-next-work">&gt; Next Project</span>
+						<span class="bl-icon bl-icon-close"></span>
+					</nav>
 				</div>
 			</div>
-		</div>
-
-
-		<div id="backtotop">Top</div>
-	
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/boxlayout.js"></script>
+		<script>
+			$(function() {
+				Boxlayout.init();
+			});
+		</script>
+	</body>
 </html>
-
-
-
