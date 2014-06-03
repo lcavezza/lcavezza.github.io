@@ -120,8 +120,7 @@ h1 {
 	opacity: 1;
 	border: 3px solid black;
 	color: black;
-	min-width: 180px;
-	min-height: 65%;
+	min-height: 100px;
 	width: 190px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -500,7 +499,7 @@ section.bl-expand .bl-icon-close {
 	}
 
 	.bl-box {
-		width: 150px;
-		height: 40%;
+		width: 100px;
+		height: 100px;
 	}
 }
